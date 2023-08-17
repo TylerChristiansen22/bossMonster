@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <section class="row">
+            <div class="col-6">
+                <div class="row justify-content-between">
+                    <div class="col-5 heroCard m-1 bg-dark text-light">
+                        <button onclick="heal('Slate Slabrock')">Slate Slabrock</button> <br>
+                        <span id="Slate SlabrockHealth">HP: </span> <br>
+                        <span id="gold">Gold: </span> <br>
+                        <span id="Slate SlabrockLevel">Level: </span>
+                    </div>
+                    <div class="col-5 heroCard m-1 bg-dark text-light">
+                        <button onclick="heal('Flint Ironstag')">Flint Ironstag</button> <br>
+                        <span id="Flint IronstagHealth">HP: </span> <br>
+                        <span id="Flint IronstagLevel">Level: </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="container-fluid">
+        <section class="row justify-content-center">
+            <div class="col-8 monsterCard bg-dark text-light text-center">
+                <span id="bossHealth">Health</span> <br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpIVBVxPfzlWu-meZ7eoS3zQvDD7N3X5nzHQ&usqp=CAU"
+                    alt="Slime" onclick="attackBoss()"> <br>
+                <span id="bossLevel">Level</span>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid">
+        <section class="row">
+            <div class="col-6">
+                <div class="row justify-content-center">
+                    <div class="col-10 bg-dark text-light shop mt-5">
+                        <span>Shop</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-6 text-end">
+                    <div class="col-12">
+                        <button class="bg-dark text-danger border">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

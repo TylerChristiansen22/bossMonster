@@ -1,0 +1,18 @@
+.heroCard {
+    min-height: 20vh;
+}
+
+.monsterCard {
+    min-height: 40vh;
+    background-image: url(https://i.imgur.com/8ag2WDQ.png);
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9yZXN0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shop {
+    min-height: 20vh;
+}
